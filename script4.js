@@ -17,7 +17,9 @@ setInterval(update, gameSpeed);
 
 function update() {
    if(x === 300 && y === 370) {
-        location.href = "dialogue2.html"    
+      velX = 0;
+      velY = 0;
+      location.href = "dialogue2.html"    
     }
     
    ctx.clearRect(x, y, size, size);

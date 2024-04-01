@@ -17,7 +17,9 @@ setInterval(update, gameSpeed);
 
 function update() {
    if(x === 10 && y === 20) {
-        location.href = "page4.html"    
+      velX = 0;
+      velY = 0;
+      location.href = "page4.html"    
     }
     
    ctx.clearRect(x, y, size, size);
